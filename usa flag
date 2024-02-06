@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>usaflag</title>
+    <style>
+        .red{
+            background-color: red;
+            height: 25px;
+            width: 50%;
+        }
+        .white{
+            background-color: white;
+            height: 20px;
+            width: 50%;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="red">
+        <img src="https://tse1.mm.bing.net/th?id=OIP.nyHWYpbLnfQd5Hzs4tkRgQHaFP&pid=Api&P=0&h=180" 
+        alt="" height="159px" width="180px">
+    </div>
+    <div class="white"></div>
+    <div class="red"></div>
+    <div class="white"></div>
+    <div class="red"></div>
+    <div class="white"></div>
+    <div class="red"></div>
+    <div class="white"></div>
+    <div class="red"></div>
+    <div class="white"></div>
+    <div class="red"></div>
+    <div class="white"></div>
+    <div class="red"></div>
+</body>
+</html>
