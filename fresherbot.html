@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> FRESHER BOT WEBSITE</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap" rel="stylesheet">
+    <style>
+        nav{
+            background-color: plum;
+            padding: 10px;
+            text-align: center;
+            height: 100px;
+            width: 100%;
+        }
+        .create{
+            text-align:center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .box{
+            height: 3100.8px;
+            width: 660px;
+            border: opx solid #E5E7EB;
+            padding: 32px 32px 32px 32px;
+            position: block pink;
+            transition: all 0s ease 0s;
+            outline: rgb(255,0,0) dashed 0.8px;
+            font-size: 16px;
+            line-height: 24px;
+            word-spacing: 0px;
+            background-color: lavender;
+        }
+        .boxs{
+            height: 3000.8px;
+            width: 100px;
+            border: opx solid darkorchid;
+            padding: 20px 20px 20px 20px;
+            position: block purple;
+            transition: all 0s ease 0s;
+            outline: rgb(255,0,0) dashed 0.8px;
+            font-size: 16px;
+            line-height: 24px;
+            word-spacing: 0px;
+        }
+        form{
+            text-align: left;
+        }
+        .label{
+            font-size: 25px;
+            font-weight: 500;
+            line-height: 20px;
+            height: 20px;
+            width: 512px;
+            border: 0px solid #E5E7EB;
+            margin : 0 0.8px 0;
+            color:  purple;
+            cursor: text;
+        }
+        .select{
+            height: 41.6px;
+            width: 512px;
+            border: 1px solid #4b5563;
+            padding: 10px 10px 10px 10px;
+            font-size: 20px;
+            line-height: 20px;
+            background-color: #f9fafb;
+            display: block;
+            cursor: text;
+            border-top-left-radius: 8px;
+            border-top-right-radius: 8px;
+            border-bottom-left-radius: 8px;
+            border-bottom-right-radius: 8px;
+        }
+        button{
+            font-size: 12px;
+            line-height: 24px;
+            text-align: center;
+            text-decoration: none solid rgb(107,114,128);
+            height: 40.6px;
+            width: 150.938px;
+            border: 1px solid #374151;
+            padding: 4px 12px 4px 12px;
+            font-size: 17px;
+            background-color:plum ;
+        }
+        .otp{
+            background-color:lightblue;
+            text-decoration: none solid rgb(0,0,0);
+            width: 600px;
+            border: 0px solid pink;
+            padding: 12px 12px 12px 12px;
+            display: block;
+            box-sizing: border-box;
+            outline: rgb(255,0,0);
+            display: block;
+        }
+        h1{
+            font-family: 'Protest Revolution', sans-serif;
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+    <nav><h1>FresherBot</h1></nav>
+    <br><br><br>
+    <div class="create">
+        <div class="box">
+            <h1 style="color: deeppink;">create an account </h1>
+            <form action="">
+            <fieldset class="boxs">
+                <label for="" class="label">Name</label>
+                <br>
+                <input  class="select" type="text" placeholder="Enter your name" id="Name">
+                <br>
+                <label for="" class="label">Your email</label>
+                <br>
+                <input  class="select"  type="email"  id="Your email" placeholder="name@gmail.com" >
+                <br>
+                <label for="" class="label">Phone Number</label>
+                <br>
+                <input type="number" placeholder="Enter 10 digit phone no" class="select" size="10" maxlength="10" id="Phone Number">
+                <br>
+                <button>Generate OTP</button>
+                <br><br>
+            <div class="otp" style="  height: 170px;">
+                <label for="" class="label"><b>Verify OTP</b></label>
+                <input type="number" placeholder="Enter OTP recieved on mobile " class="select" id="Verify OTP">
+                <br>
+                <button>Validate</button>
+            </div><br>
+            <label for="" class="label">Password</label>
+            <br>
+            <input type="password" id="Password" placeholder="*********"  class="select">
+            <br>
+           <label for="" class="label">Confirm Password</label>
+           <br>
+           <input type="password" id="Confirm Password" placeholder="***********" class="select">
+           <br>
+           <label for="city" ></label>
+           <label for="" id="city" class="label">Current City</label>
+           <br>
+           <select  id=" city" class="select">
+            <option value="-">-</option>
+            <option value="Guntur">Guntur</option>
+            <option value="akot">akot</option>
+            <option value="adoor">adoor</option>
+            <option value="kalpi">kalpi</option>
+            <option value="aizawl">aizawl</option>
+            <option value="cuttack">cuttack</option>
+           </select>
+           <br>
+           <label for="District" ></label>
+           <label for="" id="District" class="label">District</label>
+           <br>
+           <select  id=" District" class="select">
+            <option value="-">-</option>
+            <option value="Guntur">Guntur</option>
+            <option value="ambala">ambala</option>
+            <option value="betul">betul</option>
+            <option value="daman">daman</option>
+            <option value="gonda">gonda</option>
+            <option value="jhalawar">jhalawar</option>
+           </select>
+           <br>
+           <label for="State" ></label>
+           <label for="" id="State" class="label">State</label>
+           <br>
+           <select  id="State" class="select">
+            <option value="-">-</option>
+            <option value="Guntur">Guntur</option>
+            <option value="ambala">ambala</option>
+            <option value="betul">betul</option>
+            <option value="daman">daman</option>
+            <option value="gonda">gonda</option>
+            <option value="jhalawar">jhalawar</option>
+           </select>
+           <br>
+           <label for="Branch" ></label>
+           <label for="" id="Branch" class="label">Branch</label>
+           <br>
+           <select  id="Branch" class="select">
+            <option value="-">-</option>
+            <option value="CSE">CSE</option>
+            <option value="CSE[AI&DS]">CSE[AI&DS]</option>
+            <option value="CSE[AI&ML]">CSE[AI&ML]</option>
+            <option value="CSE[AI]">CSE[AI]</option>
+            <option value="ECE">ECE</option>
+            <option value="EEE">EEE</option>
+           </select>
+           <br>
+           <label for="Year of passing" ></label>
+           <label for="" id="Year of passing" class="label">Year of passing</label>
+           <br>
+           <select  id="Year of passing" class="select">
+            <option value="-">-</option>
+            <option value="2020">2020</option>
+            <option value="2021">2021</option>
+            <option value="2022">2022</option>
+            <option value="2023">2023</option>
+            <option value="2024">2024</option>
+            <option value="2025">2025</option>
+           </select>
+           <br>
+           <label for="Gender" ></label>
+           <label for="" id="Gender" class="label">Gender</label>
+           <br>
+           <select  id="Gender" class="select">
+            <option value="-">-</option>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Transgender">Transgender</option>
+           </select>
+           <br>
+           <div class="otp" style="  height: 120px;">
+            <h1>Academic Percentage</h1>
+            <p style="font-size: 20px;">Enter a value between 30 to 100 . If your CGPA is 7.2 then enter 72</p>
+           </div>
+           <br>
+           <div class="otp">
+            <label for="" class="label">Class 10th</label>
+            <br>
+            <input type="number" id="Class 10th" placeholder="Enter your 10th %"  class="select">
+            <br>
+            <label for="" class="label">Class 12th</label>
+            <br>
+            <input type="number" id="Class 12th" placeholder="Enter your 12th %"  class="select">
+            <br>
+            <label for="" class="label">Graduation</label>
+            <br>
+            <input type="number" id="Graduation" placeholder="Enter your Graduation %"  class="select">
+            <br>
+            <label for="" class="label">Post Graduation(optional)</label>
+            <br>
+            <input type="number" id="Post Graduation(optional)" placeholder=" Enter your Post Graduation %"  class="select">
+            <br>
+           </div>
+           <br>
+           <div>
+           <label for="" style="font-size: 25px;">Career Choice</label>
+           <br>
+           <div style="font-size: 20px;">
+           <input type="checkbox"> <label for="">Software or IT Job</label>
+           <br>
+           <input type="checkbox"><label for="">Govt or Bank Jobs</label>
+           <br>
+           <input type="checkbox"><label for="">civil services</label>
+           <br>
+           <input type="checkbox"><label for="">ms abroad</label>
+           </div>
+           </div>
+           <br>
+           <div>
+            <label for="" style="font-size: 25px;">Technologies Learnt</label>
+            <br>
+            <div style="font-size: 20px;">
+            <input type="checkbox"> <label for="">C</label>
+            <br>
+            <input type="checkbox"><label for="">C++</label>
+            <br>
+            <input type="checkbox"><label for="">Java</label>
+            <br>
+            <input type="checkbox"><label for="">Python</label>
+            <br>
+            <input type="checkbox"><label for="">Javascript</label>
+            <br>
+            <input type="checkbox"><label for="">Html&Css</label>
+            <br>
+            <input type="checkbox"><label for="">SQL</label>
+            </div>
+            </div>
+            <br>
+            <label for="Backlogs"></label>
+            <label for="" id="Backlogs" class="label">Backlogs</label>
+            <br>
+            <select id="Backlogs" class="select">
+                <option value="none">none</option>
+                <option value="one">one</option>
+                <option value="two">two</option>
+                <option value="three or more">three or more</option>
+            </select>
+            <br>
+            <label for="Placement Offers"></label>
+            <label for="" id="Placement Offers" class="label">Placement Offers</label>
+            <br>
+            <select id="Placement Offers" class="select">
+                <option value="none">none</option>
+                <option value="one">one</option>
+                <option value="two">two</option>
+                <option value="three or more">three or more</option>
+            </select>
+            <br>
+            <div class="otp" style="  height: 170px;">
+            <label for="" class="label">Trained at</label>
+            <p style="font-size: 20px;">you can mention the institute name or college name</p>
+            <input type="text" class="select">
+            </div>
+            <br>
+            <input type="checkbox">
+            <label for="" class="label">I accept all <b>Terms and Conditions</b></label>
+            <br>
+            <br>
+            <button class="button"><b>Register</b></button>
+            <br>
+            <p style="font-size: 20px;">Already have an account?  <span style="color: deeppink; font-size: 25px;">Login now</span></p>
+            <p style="font-size: 20px;">Forget Password  <span style="color: deeppink; font-size: 25px;">Reset password</span></p>
+        </fieldset>
+            </form>
+        </div>
+    </div>
+    
+</body>
+</html>
